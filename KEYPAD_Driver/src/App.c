@@ -1,11 +1,3 @@
-/*
- * App.c
- *
- *  Created on: Apr 15, 2023
- *      Author: abdelrahmanhossam
- */
-
-
 
 #include <util/delay.h>
 #include "../include/LIB/STD_TYPES.h"
