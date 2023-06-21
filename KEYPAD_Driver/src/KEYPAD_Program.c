@@ -1,11 +1,3 @@
-/*
- * KEYPAD_Program.c
- *
- *  Created on: Apr 29, 2023
- *      Author: abdelrahmanhossam
- */
-
-
 
 #include <util/delay.h>
 #include "../include/LIB/STD_TYPES.h"
