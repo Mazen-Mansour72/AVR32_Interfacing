@@ -1,9 +1,4 @@
-/*
- * SSD_Program.c
- *
- *  Created on: May 6, 2023
- *      Author: mazen
- */
+
 #include<util/delay.h>
 #include"../include/LIB/STD_TYPES.h"
 #include"../include/LIB/BIT_MATH.h"
