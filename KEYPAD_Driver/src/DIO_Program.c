@@ -1,10 +1,3 @@
-/*
- * DIO_Program.c
- *
- *  Created on: Apr 15, 2023
- *      Author: abdelrahmanhossam
- */
-
 
 #include "../include/LIB/STD_TYPES.h"
 #include "../include/LIB/BIT_MATH.h"
