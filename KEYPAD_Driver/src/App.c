@@ -55,26 +55,28 @@ int main ()
 	while(1)
 	{
 		local_u8KeyPadValue = HKEYPAD_u8GetPressedKey();
+		
+		// Toggle Buzzer Status
 		if (local_u8KeyPadValue == '1')
 		{
-
 			MDIO_voidTogglePinValue(PORTB,PIN7);
 		}
+		
+		// Increment SSD Value
 		else if (local_u8KeyPadValue == '4')
 		{
-
 			HSSD_voidDisplayNumber(PORTB,++i);
-			//i++;
 		}
+		
+		// Decrement SSD Value
 		else if (local_u8KeyPadValue == '5')
 		{
-			//static u8 i=0;
 			HSSD_voidDisplayNumber(PORTB,--i);
-			//i++;
 		}
+		
+		// Toggle LED Status
 		else if (local_u8KeyPadValue == '7')
 		{
-
 			MDIO_voidTogglePinValue(PORTC,PIN7);
 		}
 	}
