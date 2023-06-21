@@ -1,11 +1,3 @@
-/*
- * LCD_Program.c
- *
- *  Created on: Apr 9, 2023
- *      Author: abdelrahmanhossam
- */
-
-
 
 #include <util/delay.h>
 #include "../include/LIB/STD_TYPES.h"
