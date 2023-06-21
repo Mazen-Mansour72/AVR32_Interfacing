@@ -38,15 +38,30 @@
 /************************
  * Display numbers from 0 to 9 on Seven Segment Display Ascendingly
  ************************/
-int main(void)
+// int main(void)
+// {
+// 	MDIO_voidInit();
+// 	while(1)
+// 	{
+// 		MDIO_voidSetPortDirection(PORTA,0xFF);
+// 		HSSD_voidDisplayNumberAscending(PORTA,2000);
+
+// 	}
+
+// }
+/***************************************
+ * Toggle Buzzer Status every 100 msec.
+ ***************************************/
+int main ()
 {
-	MDIO_voidInit();
+
+	MDIO_voidSetPinDirection(PORTA,PIN0,DIO_OUTPUT);
+	MDIO_voidSetPinValue(PORTA,PIN0,DIO_SET);
+
+
 	while(1)
 	{
-		MDIO_voidSetPortDirection(PORTA,0xFF);
-		HSSD_voidDisplayNumberAscending(PORTA,2000);
-
+		MDIO_voidTogglePinValue(PORTA,PIN0);
+		_delay_ms(100);
 	}
-
 }
-
